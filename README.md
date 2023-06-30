@@ -25,11 +25,11 @@ For example, suppose you have the following directory structure:
 
 ```
 components/
-├─ atoms/
-│  ├─ Button/
-│  │  ├─ Button.ts
-│  ├─ Input/
-│  │  ├─ Input.ts
+└─ atoms/
+   ├─ Button/
+   │  └─ Button.ts
+   └─ Input/
+      └─ Input.ts
 ```
 
 Running the script with ./generate_barrel.sh components will generate the following barrel files:
