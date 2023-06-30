@@ -21,8 +21,6 @@ To use the script, follow the instructions below:
 
 The script will generate index.ts files in each subdirectory, including the root folder if it contains subdirectories.
 
-Example
-
 For example, suppose you have the following directory structure:
 
 ```
