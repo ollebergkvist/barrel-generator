@@ -49,5 +49,6 @@ components/
 
 The generated index.ts files act as barrel files and export all the modules in each respective directory, allowing for cleaner and more efficient imports.
 
-Contributing
+## Contributing
+
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
