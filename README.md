@@ -19,35 +19,35 @@ To use the script, follow the instructions below:
    Replace <folder> with the path to the root folder where you want to generate the barrel files.
    ```
 
-The script will generate index.ts files in each subdirectory, including the root folder if it contains subdirectories.
+   The script will generate index.ts files in each subdirectory, including the root folder if it contains subdirectories.
 
-For example, suppose you have the following directory structure:
+   For example, suppose you have the following directory structure:
 
-```
-components/
-└─ atoms/
-   ├─ Button/
-   │  └─ Button.ts
-   └─ Input/
-      └─ Input.ts
-```
+   ```
+   components/
+   └─ atoms/
+      ├─ Button/
+      │  └─ Button.ts
+      └─ Input/
+         └─ Input.ts
+   ```
 
-Running the script with ./generate_barrel.sh components will generate the following barrel files:
+   Running the script with ./generate_barrel.sh components will generate the following barrel files:
 
-```
-components/
-├─ atoms/
-│  ├─ Button/
-│  │  ├─ Button.ts
-│  │  └─ index.ts
-│  ├─ Input/
-│  │  ├─ Input.ts
-│  │  └─ index.ts
-│  └─ index.ts
-└─ index.ts
-```
+   ```
+   components/
+   ├─ atoms/
+   │  ├─ Button/
+   │  │  ├─ Button.ts
+   │  │  └─ index.ts
+   │  ├─ Input/
+   │  │  ├─ Input.ts
+   │  │  └─ index.ts
+   │  └─ index.ts
+   └─ index.ts
+   ```
 
-The generated index.ts files act as barrel files and export all the modules in each respective directory, allowing for cleaner and more efficient imports.
+   The generated index.ts files act as barrel files and export all the modules in each respective directory, allowing for cleaner and more efficient imports.
 
 ## Contributing
 
